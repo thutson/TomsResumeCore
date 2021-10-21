@@ -1,5 +1,5 @@
 # Tom's Resume Website
-[![Build Status](https://dev.azure.com/thutson79/TomsResumeCore/_apis/build/status/thutson.TomsResumeCore?branchName=master)](https://dev.azure.com/thutson79/TomsResumeCore/_build/latest?definitionId=2&branchName=master)
+[![Build Status](https://dev.azure.com/thutson79/TomsResumeCore/_apis/build/status/thutson.TomsResumeCore?branchName=master)](https://dev.azure.com/thutson79/TomsResumeCore/_build/latest?definitionId=3&branchName=master)
 
 This repo is the code for my resume website, <a href="https://tomhutson.com" target="blank">tomhutson.com</a>. The goal here is to have a project to maintain to keep myself up to date on the latest technologies/practices and at the same time show that I am actually capable of doing the things listed on my resume. I realize it's not formatted for easy reuse but if anyone would like to fork it and use it for their own site, please feel free. 
 
