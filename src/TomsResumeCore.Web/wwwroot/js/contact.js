@@ -1,6 +1,6 @@
 /*!
  * Toms Resume Website v1.0.6 (https://tomhutson.com)
- * Copyright 2019 Tom Hutson
+ * Copyright 2023 Tom Hutson
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */
 
