@@ -60,16 +60,16 @@ namespace TomsResumeCore.Service
         {
             var email = new MimeMessage();
             email.From.Add(new MailboxAddress(_smtpSettings.SenderName, _smtpSettings.SenderEmail));
-            email.To.AddRange(to.Select(x => new MailboxAddress(x)));
+            email.To.AddRange(to.Select(x => new MailboxAddress("",x)));
 
             if (cc != null)
             {
-                email.Cc.AddRange(cc.Select(x => new MailboxAddress(x)));
+                email.Cc.AddRange(cc.Select(x => new MailboxAddress("", x)));
             }
 
             if (bcc != null)
             {
-                email.Bcc.AddRange(bcc.Select(x => new MailboxAddress(x)));
+                email.Bcc.AddRange(bcc.Select(x => new MailboxAddress("", x)));
             }
 
             email.Subject = subject;
