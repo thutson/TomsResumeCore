@@ -18,7 +18,7 @@ namespace TomsResumeCore.Tests
         {
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appsettingsTest.json")
                 .Build();
 
             _repo = new ResumeRepo(configuration);
